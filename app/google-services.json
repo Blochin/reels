@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "96242174063",
+    "firebase_url": "https://bakalarska-praca-c9e73-default-rtdb.firebaseio.com",
+    "project_id": "bakalarska-praca-c9e73",
+    "storage_bucket": "bakalarska-praca-c9e73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96242174063:android:19943f0bf72389d401a59a",
+        "android_client_info": {
+          "package_name": "sk.fei.stuba.bakalarskaPraca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96242174063-br7j9ru9qvk6d1jbtmpvbhffiv6sfi1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_d6PTukrPA7tmoAEcJUCyXuKzmmEZG3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96242174063-br7j9ru9qvk6d1jbtmpvbhffiv6sfi1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

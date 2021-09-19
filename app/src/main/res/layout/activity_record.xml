@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".RecordActivity">
+
+    <TextureView
+        android:id="@+id/previewTextureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="-135dp" />
+
+    <ImageView
+        android:id="@+id/recordVideo"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/record_bussy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/recordVideo"
+        app:layout_constraintEnd_toEndOf="@+id/recordVideo"
+        app:layout_constraintStart_toStartOf="@+id/recordVideo" />
+
+    <TextView
+        android:id="@+id/getSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="GET SOUNDS"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/previewTextureView" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15 SEC"
+        android:textColor="#fff"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/recordVideo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/recordVideo" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
